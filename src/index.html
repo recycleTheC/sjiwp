@@ -42,8 +42,8 @@
     <script>
         $(document).ready(function() {
             $('.list-group-item-linkable').on('click', function() {
-                //window.location.href = $(this).data('link');
-                window.open($(this).data('link'), '_blank');
+                window.location.href = $(this).data('link');
+                //window.open($(this).data('link'), '_blank');
             });
 
             $('.list-group-item-linkable a, .list-group-item-linkable button')
