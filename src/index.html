@@ -25,7 +25,7 @@
                     <span class="badge badge-success badge-pill">riješeno: 24. travnja 2020.</span>
 
                     <span class="badge badge-white badge-pill">
-                        <a href="https://github.com/recycleTheC/sjiwp/tree/master/src/bootstrap-blog">
+                        <a href="https://github.com/recycleTheC/sjiwp/tree/master/src/bootstrap-blog" target="_blank">
                             <i class="fab fa-github fa-lg"></i>
                         </a>
                     </span>
@@ -42,7 +42,8 @@
     <script>
         $(document).ready(function() {
             $('.list-group-item-linkable').on('click', function() {
-                window.location.href = $(this).data('link');
+                //window.location.href = $(this).data('link');
+                window.open($(this).data('link'), '_blank');
             });
 
             $('.list-group-item-linkable a, .list-group-item-linkable button')
