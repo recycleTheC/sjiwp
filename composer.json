@@ -1,22 +1,11 @@
-{   
-
-"require": {
-        "php": ">=7.4.0",
+{
+    "require": {
+        "php": ">=7.0.0"
     },
     "extra": {
         "heroku": {
             "document-root": "src",
             "index-document": "index.html",
-            "php-config": [
-                "date.timezone=Europe/Vienna"
-            ],
-            "engines": {
-                "php": "5.5.*",
-                "nginx": "1.4.*"
-            },
-            "compile": [
-                "echo $FOO"
-            ],
         }
     }
 }
