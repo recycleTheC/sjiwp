@@ -144,7 +144,7 @@ if ($result->num_rows > 0) {
             <?php
                 for($i = 0; $i < 4; $i++){
                     echo '<div class="card">';
-                        echo '<img src="'.$hotels[$i]["picture"].'" alt="Hawaii" class="card-img-top">';
+                        echo '<img src="../'.$hotels[$i]["picture"].'" alt="Hawaii" class="card-img-top">';
                         echo '<div class="card-body">';
                             echo '<h5 class="card-title">'.$hotels[$i]["name"].'</h5>';
                             echo '<div class="card-text">';
