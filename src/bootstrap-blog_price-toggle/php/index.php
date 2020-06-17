@@ -61,7 +61,7 @@ if ($result->num_rows > 0) {
     </nav>
 
     <div class="container">
-        <div class="jumbotron mt-4 text-white" style="background-image: url('pan.jpg'); background-size: cover;">
+        <div class="jumbotron mt-4 text-white" style="background-image: url('../pan.jpg'); background-size: cover;">
             <h1>Welcome to Hawaii!</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa doloremque perspiciatis aspernatur, necessitatibus error asperiores, similique quaerat consequuntur beatae quod delectus praesentium quia, est maiores? Atque ratione ea nam fuga.</p>
             <button class="btn btn-primary">Call to Action!</button>
