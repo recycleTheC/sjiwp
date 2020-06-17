@@ -69,7 +69,7 @@ if ($result->num_rows > 0) {
 
         <div class="card-deck text-center mb-4">
             <div class="card">
-                <img src="1.jpg" alt="Hawaii" class="card-img-top">
+                <img src="../1.jpg" alt="Hawaii" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Sunny Hawaii</h5>
                     <div class="card-text">
@@ -85,7 +85,7 @@ if ($result->num_rows > 0) {
             </div>
 
             <div class="card">
-                <img src="2.jpg" alt="Hawaii" class="card-img-top">
+                <img src="../2.jpg" alt="Hawaii" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Surfing Life</h5>
 
@@ -102,7 +102,7 @@ if ($result->num_rows > 0) {
             </div>
 
             <div class="card">
-                <img src="3.jpg" alt="Hawaii" class="card-img-top">
+                <img src="../3.jpg" alt="Hawaii" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Relaxing Holiday</h5>
 
@@ -119,7 +119,7 @@ if ($result->num_rows > 0) {
             </div>
 
             <div class="card">
-                <img src="4.jpg" alt="Hawaii" class="card-img-top">
+                <img src="../4.jpg" alt="Hawaii" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Beautiful Nature</h5>
 
@@ -146,7 +146,7 @@ if ($result->num_rows > 0) {
                     echo '<div class="card">';
                         echo '<img src="'.$hotels[$i]["picture"].'" alt="Hawaii" class="card-img-top">';
                         echo '<div class="card-body">';
-                            echo '<h5 class="card-title">Sheraton Kona Resort and Spa</h5>';
+                            echo '<h5 class="card-title">'.$hotels[$i]["name"].'</h5>';
                             echo '<div class="card-text">';
                                 echo '<p>'.$hotels[$i]["description"].'</p>';
                             echo '</div>';
