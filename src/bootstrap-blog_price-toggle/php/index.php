@@ -7,7 +7,7 @@ $username = $url["user"];
 $password = $url["pass"];
 $db = substr($url["path"], 1);
 
-$conn = mysqli_connect($server, $username, $password, $db) or die("Greška prilikom spajanja na bazu podataka!"); 
+$connection = mysqli_connect($server, $username, $password, $db) or die("Greška prilikom spajanja na bazu podataka!"); 
 
 $query = "SELECT * FROM hotels";
 $result = mysqli_query($connection,$query);
