@@ -2,7 +2,7 @@
     "extra": {
         "heroku": {
             "document-root": "src",
-            "index-document": "index.html",
+            "index-document": "index.html"
         }
     }
 }
