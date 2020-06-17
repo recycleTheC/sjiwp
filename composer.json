@@ -1,7 +1,4 @@
 {
-    "require": {
-        "php": ">=7.0.0"
-    },
     "extra": {
         "heroku": {
             "document-root": "src",
